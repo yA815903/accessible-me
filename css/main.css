@@ -45,6 +45,10 @@ h6 {
   text-decoration: none;
   font-size: 1.25rem;
 }
+.main-content .pimg {
+  width: 100%;
+  height: 200px;
+}
 
 form input,
 form textarea {
@@ -86,4 +90,20 @@ form button {
   position: static;
   width: auto;
   height: auto;
+}
+.main-content .pimg {
+  width: 100%;
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .main-content .pimg {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content .pimg {
+    height: 100px;
+  }
 }
