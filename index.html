@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jam Box</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Accessible Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
   <a href="#main" class="skip-link">Skip to main content</a>
   <main id="main"></main>
 </head>
-
 <body>
-  <header role="banner">
-    <nav role="navigation">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Reservation</a></li>
-        <li><a href="#">Studio</a></li>
-      </ul>
-    </nav>
-    <div class="banner-image" role="img">
-      <img src="https://placekitten.com/1200/900" alt="Banner image">
+  <div class="container" role="main">
+    <div class="site-header">
+      <header>
+        <h1>Jam Box Studios</h1>
+        <div class="main-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Studio</a></li>
+          </ul>
+        </div>
+        <div class="banner-image" role="img">
+          <img src="https://placekitten.com/1200/900" alt="Banner image">
+        </div>
+      </header>
     </div>
-  </header>
-  <main role="main">
-    <div class="pimg">
-      <h1>Welcome to Jam Box</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.
+    
+      <div class="main-content" role="main">
+        <div class="pimg">
+        <h1>Welcome to Jam Box</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.
         <a href="#" aria-label="read the main-content">read the main-content</a>
-    </div>
-  </main>
-    <div class="owner" role="main">
-      <h1>Meet the owner</h1>
-      <ul itemscope itemtype="https://schema.org/Person">
-        <li itemprop="Name">John Doe</li>
-        <li itemprop="JobTitle">CEO</li>
-        <li itemprop="Email">johnjoe@jambox.ca</li>
-        <li itemprop="Phone">613-000-0000</li>
-      </ul>
+      </div>
+      </div>
+     <div class="owner" role="main">
+        <h1>Meet the owner</h1>
+        <ul itemscope itemtype="https://schema.org/Person">
+          <li itemprop="Name">John Doe</li>  
+          <li itemprop="JobTitle">CEO</li>
+          <li itemprop="Email">johnjoe@jambox.ca</li>
+          <li itemprop="Phone">613-000-0000</li>
+        </ul>
         <h1>Address</h1>
         <p>
           Jambox Studios
@@ -66,5 +74,3 @@
 </body>
 
 </html>
-<a href="#main" class="skip-link">Skip to main content</a>
-  <main id="main"></main>
