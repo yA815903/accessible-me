@@ -91,6 +91,7 @@ form button {
 
 .skip-link:focus {
   top: 0;
+  left: 0;
   opacity: 1;
 }
 .main-content .pimg {
